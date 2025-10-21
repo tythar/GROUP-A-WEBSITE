@@ -1,39 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azuz Tech company - website</title>
-    <link rel="stylesheet" href="pagestyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="pagestyle.css">
+  <title>Document</title>
+      <style>
+            .hero{
+                  height: 700px;
+                  width: 100%;
+                  overflow: hidden;
+                  position: relative;
+                  margin-top: 80px;
+                  }
+
+                .hero-img{
+                  height: 100%;
+                  width: 100%;
+                  position: absolute;
+                  z-index: 1;
+                  object-fit: cover;
+                  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('soother.jpg');
+                  background-position: center;
+                  background-size:cover;
+                }
+
+                .hero-content{
+                  z-index: 2;
+                  color: black;
+                  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  font-size:x-large;
+                  position:absolute;
+                  top:50%;
+                  left:10%;
+                  text-decoration-line: overline;
+                  text-decoration-color: yellow;
+
+                  
+  
+
+                }
+
+                .setons{
+                    display: flex;
+                    flex-wrap:wrap;
+                    align-items: center;
+                    gap: 60px;
+                    background-color: white; 
+                    padding:35px;
+                    align-items: center;
+                    justify-content: center;
+                  }
+                  .seton{
+                  box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+                  max-width: 500px;
+                  min-width:300px;
+                  background-color: aliceblue;
+                  padding: 50px;
+                  border-radius: 10px;
+                  align-items:center
+                  }
+                  .seton h4{
+                  color:darkturquoise;
+                  }
+
+                
+      </style>
+
 </head>
 <body>
-    <section>
-        <h2>
-            PROFILE
-        </h2>
-        <p>
-            <h4>Services</h4>
-            <p>
-                We offer first class services at your convinience.
-                <li>Web designing </li>
-                <li>Database Management</li>
-                <li>Software development in C language</li>
-            </p>
-        </p>
-    </section>
-    <section>
-        <h5>Web Designing</h5>
-        <p>We create websites for Schools, Hotels, Restaurants, Hospitals and other Associations<br>
-           We also create websites for start-up businesses
-       </p>
-       <h5>Database Management</h5>
-       <p>We create databases systems to track your business sales and progress<br>
-        We create database systems that are able to productively backup data and access it.
-     
-       </p>
-    </section>
-    <footer>
-        &copy;2025 All rights reserved.
-    </footer>
+
+  <div class="hero">
+    <div class="hero-img">
+<nav>
+    <div class="nav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about us.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="team.html">TEAM</a>
+          <a href="join.html">JOIN US</a>
+  </nav>
+          
+    </div>  
+    </div>  
+
+    <div class="hero-content">
+
+      <h3>Reality Pros</h3>
+      <P>Incoporation</P>
+    </div>
+    </div>
+
+    <div class="offers">
+      <h3>What we offer</h3>
+    </div>
+  
+    <div class="team-grid">
+  <div class="card" style="width: 18rem;">
+    <h5>Coding</h5>
+  <img src="coding.jpg" class="card-img-top" alt="codings">
+  <div class="card-body">
+    <p class="card-text">Transforming ideas into digital reality — our coding services deliver robust, scalable, and innovative software solutions tailored to your goals.</p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <h5>Robotics</h5>
+  <img src="robotics.jpg" class="card-img-top" alt="robotics">
+  <div class="card-body">
+    <p class="card-text">Empowering innovation through cutting-edge robotics solutions — from automation to intelligent systems, we deliver precision, efficiency, and futuristic technology tailored to your needs.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <h5>Data Analysis</h5>
+  <img src="data.jpg" class="card-img-top" alt="data image">
+  <div class="card-body">
+    <p class="card-text">Unlock the power of data to drive smarter decisions, streamline operations, and fuel innovation. Our solutions turn raw information into actionable insights for a competitive edge..</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <h5>Computer Setting</h5>
+  <img src="sett.jpg" class="card-img-top" alt="setting up computers">
+  <div class="card-body">
+    <p class="card-text">Professional computer setup services to get your systems running smoothly — from hardware installation to software configuration, we ensure a seamless start for your tech environment.</p>
+  </div>
+</div>
+</div>
+
+  <footer>
+    <p>&copy reserved reality pros</p>
+  </footer>
+   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
