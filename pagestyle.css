@@ -1,20 +1,27 @@
 html {
   scroll-behavior: smooth;
 }
-
+html, body {
+  margin: 0;
+  padding: 0;
+}
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  
   width: 100%;
   background-color: rgba(0, 0, 0, 1);
   border-radius: 18px;
-  display: flex;
   justify-content: space-around;
   padding: 10px;
   z-index: 999;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
   
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
 }
 
 .nav a {
@@ -93,3 +100,21 @@ footer{
   color: deepskyblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.services {
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
