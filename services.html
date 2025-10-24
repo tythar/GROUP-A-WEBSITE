@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="pagestyle.css" />
+  <title>Services</title>
+  <style>
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 1);
+      border-radius: 18px;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      z-index: 999;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      border-radius: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav a:hover {
+      background-color: rgba(255, 255, 255, 1);
+      color: black;
+    }
+
+    .nav a.active {
+      background-color: yellow;
+      color: black;
+    }
+
+    .services-section {
+      margin-top: 100px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .service-card {
+      background-color: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="about us.html">About Us</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="team.html">TEAM</a>
+      <a href="follow us.html">Follow US</a>
+    </div>
+  </nav>
+
+<div class="services">
+  <h2>Reality Services</h2>
+  <p>been wandering what we offer, relax lets gently walk you through</p>
+  <div class="row my-5 peck mx-5 p-2">
+    <div class="col-6">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="data.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8 px-5">
+            <div class="card-body">
+              <h5 class="card-title">Network Infrastructure</h5>
+              <p class="card-text">We design and maintain secure, scalable network systems that support seamless communication and data flow across your organization.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 px-4">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="sett.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body px-5">
+              <h5 class="card-title">System Administration</h5>
+              <p class="card-text">Our team ensures your servers, databases, and operating systems run smoothly, securely, and with optimal performance.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-5 peck mx-5 p-2">
+    <div class="col-6">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="data.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body px-5">
+              <h5 class="card-title">Cybersecurity Solutions</h5>
+              <p class="card-text">We protect your digital assets with advanced threat detection, encryption, and proactive security protocols tailored to your environment.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 px-4">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="sett.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body px-5">
+              <h5 class="card-title">Cloud Deployment</h5>
+              <p class="card-text">We help businesses migrate to and manage cloud platforms like AWS, Azure, and Google Cloud for flexibility and scalability.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-5 peck mx-5 p-2">
+    <div class="col-6">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="data.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body px-5">
+              <h5 class="card-title">Software Development</h5>
+              <p class="card-text">From mobile apps to enterprise systems, we build custom software that solves real problems and drives innovation.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 px-4">
+      <div class="service mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="sett.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body px-5">
+              <h5 class="card-title">IT Support & Maintenance</h5>
+              <p class="card-text">We provide reliable technical support and proactive maintenance to keep your systems running efficiently and without interruption.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Reality Pros. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
